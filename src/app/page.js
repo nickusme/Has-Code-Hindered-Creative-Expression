@@ -4,7 +4,6 @@ import TypingEffect from "../../components/TypingEffect";
 import GenerativeArt from "../../components/GenerativeArt";
 import AsciiArtGenerator from "../../components/AsciiArtGenerator";
 import CodePlayground from "../../components/CodePlayground";
-import InteractiveStory from "../../components/InteractiveStory";
 import { useState, useEffect } from "react";
 
 import Image from "next/image";
@@ -76,7 +75,7 @@ export default function Home() {
 
       {/* Section 1 */}
       <section className="fade-section landing-section">
-        <p className="text-3xl">
+        <p className="text-2xl">
           Many people still see coding as purely technical—just logic and rules,
           with no room for creativity. Lines of code arent often thought of in
           the same way as brushstrokes on a canvas or verses in a poem—open to
@@ -103,7 +102,7 @@ export default function Home() {
       <div className="fade-section">
         <h2>Generative Art</h2>
         <section className="flex section">
-          <p className="text-3xl const-width">
+          <p className="text-2xl const-width">
             Art doesnt always need a paintbrush or a canvas. With generative
             design, the artists medium is code, and the creative process unfolds
             dynamically, often producing results the artist didnt initially
@@ -132,8 +131,8 @@ export default function Home() {
       {/* Section 3: ASCII Art Generator */}
       <div className="fade-section">
         <h2>ASCII... Art?</h2>
-        <section className="section">
-          <p className="text-3xl ascii-p">
+        <section className="section scroll">
+          <p className="text-2xl ascii-p">
             ASCII art is one of the earliest forms of creative expression using
             computers. In a world before modern graphics and digital drawing
             tools, artists used letters, numbers, and symbols to create
@@ -162,7 +161,7 @@ export default function Home() {
       <div className="fade-section">
         <h2>Code creates and transforms</h2>
         <section className="flex section">
-          <p className="text-3xl transform-p">
+          <p className="text-2xl transform-p">
             Coding isn&apos;t just about solving problems or building functional
             systems—it can be playful, too. In this playground, you can
             manipulate a simple block of code that changes dynamically as you
@@ -194,7 +193,7 @@ export default function Home() {
       <div className="fade-section story-block">
         <h2>Digital Storytelling</h2>
         <section className="h-screen section">
-          <div className="text-block text-3xl ascii-p">
+          <div className="text-block text-2xl ascii-p">
             <p>
               Storytelling has always been a central form of human expression.
               But with the rise of computing, we&apos;ve seen the development of
@@ -241,19 +240,14 @@ export default function Home() {
               />
             </a>
           </div>
-
-          {/* Clickable game component below posters */}
-          <div className="game-container">
-            <InteractiveStory />
-          </div>
         </section>
       </div>
 
       {/* Section 6: Beauty in Code */}
       <div className="fade-section beauty-in-code-section">
         <h2>Beauty in Code</h2>
-        <section className="beauty-in-code-content">
-          <p className="text-3xl">
+        <section>
+          <p className="text-2xl">
             Not all code is created equal. While there are countless ways to
             solve the same problem in code, not every solution is considered
             &quot;beautiful.&quot; Beautiful code is elegant, easy to read, and
@@ -348,7 +342,7 @@ export default function Home() {
           </div>
 
           {/* Explanation for Non-Coders */}
-          <p className="text-3xl">
+          <p className="text-2xl">
             <br />
             <br />
             Writing beautiful code isn&apos;t just about making it
@@ -376,7 +370,7 @@ export default function Home() {
       <div className="fade-section conclusion-section">
         <h2>Conclusion: Code as a Creative Medium</h2>
         <section className="flex justify-center section">
-          <div className="text-3xl">
+          <div className="text-2xl">
             <p>
               As we&apos;ve seen throughout this site, code is much more than a
               series of instructions for computers to follow. It has opened
