@@ -180,8 +180,8 @@ export default function Home() {
             Use the sliders and text fields below to change aspects of the
             square. The immediacy of feedback here shows how code can be a
             canvas for experimentation and expression. If you right-click on the
-            square and select "<b>Inspect</b>," you can see the code change in
-            real time!
+            square and select &quot;<b>Inspect</b>,&quot; you can see the code
+            change in real time!
           </p>
           <div>
             <div className="extraSpace"></div>
