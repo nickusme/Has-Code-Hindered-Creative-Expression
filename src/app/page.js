@@ -161,8 +161,8 @@ export default function Home() {
       {/* Section 4: Code Playground */}
       <div className="fade-section">
         <h2>Code creates and transforms</h2>
-        <section className="flex justify-center section">
-          <p className="text-3xl const-width">
+        <section className="flex section">
+          <p className="text-3xl transform-p">
             Coding isn’t just about solving problems or building functional
             systems—it can be playful, too. In this playground, you can
             manipulate a simple block of code that changes dynamically as you
@@ -203,21 +203,43 @@ export default function Home() {
               choose-your-own-adventure stories, and text-based games have
               pushed the boundaries of storytelling, giving the reader agency in
               the direction of the plot.
+              <br />
+              <br />
+            </p>
+            <p className="center">
+              <b>
+                Click on the posters below to play two great text-based CYOA
+                games!
+              </b>
+              <br />
+              <br />
             </p>
           </div>
 
           {/* Poster section */}
           <div className="poster-container">
-            <Image
-              src={photopiaPoster}
-              alt="Photopia Poster"
-              className="story-poster"
-            />
-            <Image
-              src={anchorheadPoster}
-              alt="Anchorhead Poster"
-              className="story-poster"
-            />
+            <a
+              href="http://adamcadre.ac/if/photopia.html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src={photopiaPoster}
+                alt="Photopia Poster"
+                className="story-poster"
+              />
+            </a>
+            <a
+              href="https://www.ifiction.org/games/playz.php?cat=&game=231&mode=html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src={anchorheadPoster}
+                alt="Anchorhead Poster"
+                className="second-story-poster"
+              />
+            </a>
           </div>
 
           {/* Clickable game component below posters */}
@@ -348,6 +370,59 @@ export default function Home() {
 
       {/* Section 7: Conclusion */}
       <div className="extraSpace"></div>
+      <div className="extraSpace"></div>
+      <div className="extraSpace"></div>
+      <div className="fade-section conclusion-section">
+        <h2>Conclusion: Code as a Creative Medium</h2>
+        <section className="flex justify-center section">
+          <div className="text-3xl">
+            <p>
+              As we've seen throughout this site, code is much more than a
+              series of instructions for computers to follow. It has opened
+              doors to entirely new forms of creativity—whether it’s designing
+              generative art, creating interactive stories, or writing clean,
+              elegant code that solves problems beautifully.
+              <br />
+              <br />
+              The beauty of code is multifaceted. It lies not just in its
+              functionality, but in how it communicates with others. Code can be
+              poetry—concise, elegant, and meaningful. Writing beautiful code
+              isn’t just a technical skill, it's a form of self-expression. The
+              ability to write code that is clean, concise, and understandable
+              by others mirrors the principles we see in art, design, and even
+              literature.
+              <br />
+              <br />
+              Beauty, of course, is subjective. In the same way a brushstroke or
+              a verse might mean different things to different people, code too
+              can be interpreted in many ways. What matters is that coding as a
+              medium offers us endless possibilities for self-expression,
+              creativity, and innovation.
+              <br />
+              <br />
+              Whether you’re building a website, crafting a game, or creating
+              art from lines of code, remember that your code reflects your
+              creative choices. By embracing the artistry within coding, we can
+              continue to push the boundaries of what we create, building a
+              future where technology and creativity work hand-in-hand.
+              <br />
+              <br />
+              As you’ve explored on this site, from generative art to digital
+              storytelling, we now live in a world where coding is a vital
+              medium of creative expression. The journey doesn’t end here—take
+              what you’ve learned and continue exploring how code can transform
+              your creative vision into reality.
+            </p>
+
+            {/* Optional: Add a cool UI element to signify the end */}
+            <div className="end-symbol">
+              <span>&#10024;</span>
+              <span>Code + Creativity = Endless Possibilities</span>
+              <span>&#10024;</span>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
   );
 }

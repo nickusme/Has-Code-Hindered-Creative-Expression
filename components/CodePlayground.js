@@ -9,7 +9,7 @@ export default function CodePlayground() {
   const [boxText, setBoxText] = useState(""); // Default text inside the box
 
   return (
-    <div className="ascii-generator">
+    <div className="code-playground">
       <div
         className="interactive-box"
         style={{

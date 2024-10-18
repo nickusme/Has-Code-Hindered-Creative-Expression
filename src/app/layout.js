@@ -41,15 +41,7 @@ export default function RootLayout({ children }) {
             </div>
             <div className="social-links">
               <a
-                href="https://twitter.com/yourprofile"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-link"
-              >
-                <i className="fab fa-twitter"></i> Twitter
-              </a>
-              <a
-                href="https://github.com/yourprofile"
+                href="https://github.com/nickusme"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-link"
@@ -57,7 +49,7 @@ export default function RootLayout({ children }) {
                 <i className="fab fa-github"></i> GitHub
               </a>
               <a
-                href="https://linkedin.com/in/yourprofile"
+                href="https://www.linkedin.com/in/nick-usme-b8008b224/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-link"

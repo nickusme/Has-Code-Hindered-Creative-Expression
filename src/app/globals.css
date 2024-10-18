@@ -190,6 +190,10 @@ canvas {
   }
 }
 
+.code-playground {
+  min-width: 40vw;
+}
+
 .ascii-generator {
   display: flex;
   flex-direction: column;
@@ -275,7 +279,7 @@ button:hover {
   display: flex;
   justify-content: center; /* Center the posters together */
   align-items: flex-end; /* Align the bottom of the posters */
-  gap: 5rem; /* Reduce the gap between the posters */
+  gap: 8rem; /* Reduce the gap between the posters */
   margin-top: 2rem;
   margin-left: 10rem;
   margin-bottom: 5rem;
@@ -289,19 +293,21 @@ button:hover {
   border-radius: 12px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
-}
-
-/* Rotate the posters */
-.story-poster:nth-child(1) {
   transform: rotate(-5deg); /* Slight left poster rotation */
 }
 
-.story-poster:nth-child(2) {
+.second-story-poster {
+  width: 400px; /* Fixed width for both posters */
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
   transform: rotate(5deg); /* Slight right poster rotation */
 }
 
 /* Hover effect to zoom in on posters */
-.story-poster:hover {
+.story-poster:hover,
+.second-story-poster:hover {
   transform: scale(1.5);
   z-index: 1;
 }
@@ -342,7 +348,7 @@ button:hover {
   gap: 2rem;
   margin-left: auto;
   margin-right: auto;
-  max-width: 60vw; /* Contain within the viewport width */
+  max-width: 55vw; /* Contain within the viewport width */
   overflow-x: scroll; /* Enable horizontal scroll */
   scroll-behavior: smooth;
 }
@@ -470,6 +476,39 @@ button:hover {
     margin: 10px 0;
   }
 }
+
+.conclusion-section {
+  margin-bottom: 5rem;
+}
+
+.end-symbol {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--highlight);
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.end-symbol span {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .extraSpace {
   margin-bottom: 4rem;
+}
+
+.center {
+  text-align: center;
 }
