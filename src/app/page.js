@@ -73,22 +73,24 @@ export default function Home() {
         )}
       </section>
 
-      {/* Section 1 */}
       <section className="fade-section landing-section">
         <p className="text-2xl">
           Many people still see coding as purely technical—just logic and rules,
-          with no room for creativity. Lines of code arent often thought of in
+          with no room for creativity. Lines of code aren't often thought of in
           the same way as brushstrokes on a canvas or verses in a poem—open to
           interpretation, emotion, or artistic expression. But that assumption
           misses a key point: coding can be a powerful form of creativity.
           <br />
           <br />
-          In fact, the digital age hasnt limited our ability to express
-          ourselves—its enhanced it. Coding has opened up entirely new ways to
-          create, from digital art and AI-generated imagery to interactive
-          storytelling and dynamic web experiences. Far from hindering creative
-          expression, computing has helped us push the boundaries of what art
-          and creativity can look like.
+          In fact, as Paul Ford reflects in <em>What is Code?</em>, &quot;code
+          is a system of thought,&quot; not merely a functional tool. It
+          represents a new way of thinking about art, design, and even
+          literature, showing how we can express ourselves through the
+          interaction between human and machine. The digital age hasn&apos;t
+          limited our ability to express ourselves—it has enhanced it. Coding
+          has opened up entirely new ways to create, from digital art and
+          AI-generated imagery to interactive storytelling and dynamic web
+          experiences.
           <br />
           <br />
           This site will guide you through some of the many ways code has
@@ -103,17 +105,20 @@ export default function Home() {
         <h2>Generative Art</h2>
         <section className="flex section">
           <p className="text-2xl const-width">
-            Art doesnt always need a paintbrush or a canvas. With generative
-            design, the artists medium is code, and the creative process unfolds
-            dynamically, often producing results the artist didnt initially
-            predict.
+            Art doesn't always need a paintbrush or a canvas. With generative
+            design, the artist&apos;s medium is code, and the creative process
+            unfolds dynamically, often producing results the artist didn&apos;t
+            initially predict.
             <br />
             <br />
-            Generative art uses algorithms, randomness, and creative code to
-            create visual expressions. Its a powerful intersection where art
-            meets computing, and the artist becomes more like a collaborator
-            with the machine. The algorithm itself may be simple, but its output
-            can be complex, vibrant, and truly unique.
+            In his <em>The Theory of Affordances</em>, J.J. Gibson explores how
+            perception is shaped by the affordances of our environment.
+            Similarly, in generative art, the affordances of the code—its
+            randomness, its algorithms—create a space for unexpected and
+            spontaneous results. Here, the artist is not the sole creator but a
+            collaborator with the machine. The code&apos;s affordances shape the
+            possibilities of the output, much like how Gibson suggests the
+            environment shapes perception.
             <br />
             <br />
             Try it for yourself. Use the controls below to create your own
@@ -128,7 +133,7 @@ export default function Home() {
         </section>
       </div>
 
-      {/* Section 3: ASCII Art Generator */}
+      {/* Section 3: ASCII Art */}
       <div className="fade-section">
         <h2>ASCII... Art?</h2>
         <section className="section scroll">
@@ -141,10 +146,12 @@ export default function Home() {
             simple characters.
             <br />
             <br />
-            This section invites you to create your own ASCII art—transforming
-            text into visual art. Though ASCII art might seem basic, it&apos;s
-            an example of how even the earliest digital tools could be used for
-            creative expression.
+            As Paul Caplan writes in <em>What is a JPEG?</em>, digital images,
+            whether in JPEG format or ASCII art, are often overlooked as objects
+            in and of themselves. But even these compressed forms of expression
+            hold significant value as they represent a new digital layer of our
+            visual world. ASCII art might seem basic, but it demonstrates how
+            even the earliest digital tools were used for creative expression.
             <br />
             <br />
             Type something into the box below and watch it turn into art. This
@@ -379,40 +386,33 @@ export default function Home() {
               clean, elegant code that solves problems beautifully.
               <br />
               <br />
-              The beauty of code is multifaceted. It lies not just in its
-              functionality, but in how it communicates with others. Code can be
-              poetry—concise, elegant, and meaningful. Writing beautiful code
-              isn&apos;t just a technical skill, it&apos;s a form of
-              self-expression. The ability to write code that is clean, concise,
-              and understandable by others mirrors the principles we see in art,
-              design, and even literature.
+              The beauty of code, as Paul Ford suggests in{" "}
+              <em>What is Code?</em>, lies not just in its functionality but in
+              how it interacts with human thought. Code is a medium that
+              reflects our thought processes and creativity, a form of
+              self-expression as valid as any brushstroke on canvas. And just as
+              J.J. Gibson's <em>Theory of Affordances</em> shows how our
+              environment shapes perception, code&apos;s inherent affordances
+              shape the creative process, opening new possibilities for artistic
+              expression.
               <br />
               <br />
-              Beauty, of course, is subjective. In the same way a brushstroke or
-              a verse might mean different things to different people, code too
-              can be interpreted in many ways. What matters is that coding as a
-              medium offers us endless possibilities for self-expression,
-              creativity, and innovation.
+              Caplan&apos;s exploration of JPEGs reminds us that even in their
+              compressed or minimal forms, digital objects hold artistic
+              significance. ASCII art and generative designs are just the
+              beginning of how we can push the boundaries of creativity using
+              code. The journey doesn&apos;t end here—continue exploring how
+              code can transform your creative vision into reality.
               <br />
               <br />
-              Whether you&apos;re building a website, crafting a game, or
-              creating art from lines of code, remember that your code reflects
-              your creative choices. By embracing the artistry within coding, we
-              can continue to push the boundaries of what we create, building a
-              future where technology and creativity work hand-in-hand.
               <br />
-              <br />
-              As you&apos;ve explored on this site, from generative art to
-              digital storytelling, we now live in a world where coding is a
-              vital medium of creative expression. The journey doesn&apos;t end
-              here—take what you&apos;ve learned and continue exploring how code
-              can transform your creative vision into reality.
             </p>
-
-            {/* Optional: Add a cool UI element to signify the end */}
+            <div className="extraSpace"></div>
             <div className="end-symbol">
               <span>&#10024;</span>
-              <span>Code + Creativity = Endless Possibilities</span>
+              <span>&#129504;</span>
+              <span>Code leads to endless creative possibilities</span>
+              <span>&#129504;</span>
               <span>&#10024;</span>
             </div>
           </div>

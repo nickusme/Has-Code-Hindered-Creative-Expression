@@ -308,7 +308,7 @@ button:hover {
 /* Hover effect to zoom in on posters */
 .story-poster:hover,
 .second-story-poster:hover {
-  transform: scale(1.5);
+  transform: scale(1.3);
   z-index: 1;
 }
 
