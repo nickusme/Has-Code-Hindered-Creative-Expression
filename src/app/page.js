@@ -143,8 +143,8 @@ export default function Home() {
             <br />
             <br />
             This section invites you to create your own ASCII art—transforming
-            text into visual art. Though ASCII art might seem basic, it’s an
-            example of how even the earliest digital tools could be used for
+            text into visual art. Though ASCII art might seem basic, it&apos;s
+            an example of how even the earliest digital tools could be used for
             creative expression.
             <br />
             <br />
@@ -163,18 +163,18 @@ export default function Home() {
         <h2>Code creates and transforms</h2>
         <section className="flex section">
           <p className="text-3xl transform-p">
-            Coding isn’t just about solving problems or building functional
+            Coding isn&apos;t just about solving problems or building functional
             systems—it can be playful, too. In this playground, you can
             manipulate a simple block of code that changes dynamically as you
-            adjust sliders. You’re not just playing with colors, sizes, and
-            shapes—you’re experimenting with how a small tweak in code can have
-            big visual results.
+            adjust sliders. You&apos;re not just playing with colors, sizes, and
+            shapes—you&apos;re experimenting with how a small tweak in code can
+            have big visual results.
             <br />
             <br />
             This kind of interaction is at the core of web design, game
             development, and other creative digital fields. Code becomes a tool
             to manipulate and create in real time, offering instant feedback for
-            the creator. It’s a medium where imagination and logic meet.
+            the creator. It&apos;s a medium where imagination and logic meet.
             <br />
             <br />
             Use the sliders and text fields below to change aspects of the
@@ -197,7 +197,7 @@ export default function Home() {
           <div className="text-block text-3xl ascii-p">
             <p>
               Storytelling has always been a central form of human expression.
-              But with the rise of computing, we've seen the development of
+              But with the rise of computing, we&apos;ve seen the development of
               entirely new ways to tell stories—ones that go beyond traditional
               linear narratives. Interactive literature,
               choose-your-own-adventure stories, and text-based games have
@@ -256,10 +256,10 @@ export default function Home() {
           <p className="text-3xl">
             Not all code is created equal. While there are countless ways to
             solve the same problem in code, not every solution is considered
-            "beautiful." Beautiful code is elegant, easy to read, and simple to
-            understand—even for others who didn't write it. On the other hand,
-            ugly, or what we call "spaghetti" code, is tangled, complicated, and
-            hard to follow.
+            &quot;beautiful.&quot; Beautiful code is elegant, easy to read, and
+            simple to understand—even for others who didn&apos;t write it. On
+            the other hand, ugly, or what we call &quot;spaghetti&quot; code, is
+            tangled, complicated, and hard to follow.
             <br />
             <br />
           </p>
@@ -276,9 +276,9 @@ export default function Home() {
               </pre>
               <p className="text-xl explanation">
                 This example is concise, easy to read, and leverages built-in
-                functions. It’s efficient and clear about what it does: it sums
-                up all numbers in an array. Anyone looking at it knows what it
-                does at a glance.
+                functions. It&apos;s efficient and clear about what it does: it
+                sums up all numbers in an array. Anyone looking at it knows what
+                it does at a glance.
               </p>
             </div>
 
@@ -295,8 +295,8 @@ export default function Home() {
 }`}
               </pre>
               <p className="text-xl explanation">
-                While this code works, it’s longer and more repetitive. It uses
-                a manual loop, which makes it harder to read and maintain
+                While this code works, it&apos;s longer and more repetitive. It
+                uses a manual loop, which makes it harder to read and maintain
                 compared to the elegant one-liner above. It gets the job done,
                 but it could be cleaner.
               </p>
@@ -316,8 +316,8 @@ export default function Home() {
               </pre>
               <p className="text-xl explanation">
                 This code is efficient and clean. By checking up to the square
-                root of the number, it reduces unnecessary checks. It's concise,
-                with early returns to handle edge cases clearly.
+                root of the number, it reduces unnecessary checks. It&apos;s
+                concise, with early returns to handle edge cases clearly.
               </p>
             </div>
 
@@ -342,7 +342,7 @@ export default function Home() {
               <p className="text-xl explanation">
                 This code works but is inefficient. It loops through the entire
                 number range unnecessarily, and the use of a flag (`isPrime`)
-                adds complexity where it's not needed.
+                adds complexity where it&apos;s not needed.
               </p>
             </div>
           </div>
@@ -351,19 +351,20 @@ export default function Home() {
           <p className="text-3xl">
             <br />
             <br />
-            Writing beautiful code isn’t just about making it work—it’s about
-            writing it in a way that is easy to understand, maintain, and
-            improve. Beautiful code is clear, logical, and organized, so that
-            anyone can read it and know exactly what’s happening. Spaghetti
-            code, on the other hand, is messy and difficult to work with.
+            Writing beautiful code isn&apos;t just about making it
+            work—it&apos;s about writing it in a way that is easy to understand,
+            maintain, and improve. Beautiful code is clear, logical, and
+            organized, so that anyone can read it and know exactly what&apos;s
+            happening. Spaghetti code, on the other hand, is messy and difficult
+            to work with.
             <br />
             <br />
-            In coding, just like in writing or art, there’s elegance in
+            In coding, just like in writing or art, there&apos;s elegance in
             simplicity. Clean, beautiful code makes life easier for future
             developers and even for your future self when you come back to it
-            later. It’s the difference between scribbling down a shopping list
-            in a rush and writing a carefully organized to-do list that you can
-            follow effortlessly.
+            later. It&apos;s the difference between scribbling down a shopping
+            list in a rush and writing a carefully organized to-do list that you
+            can follow effortlessly.
           </p>
         </section>
       </div>
@@ -377,20 +378,20 @@ export default function Home() {
         <section className="flex justify-center section">
           <div className="text-3xl">
             <p>
-              As we've seen throughout this site, code is much more than a
+              As we&apos;ve seen throughout this site, code is much more than a
               series of instructions for computers to follow. It has opened
-              doors to entirely new forms of creativity—whether it’s designing
-              generative art, creating interactive stories, or writing clean,
-              elegant code that solves problems beautifully.
+              doors to entirely new forms of creativity—whether it&apos;s
+              designing generative art, creating interactive stories, or writing
+              clean, elegant code that solves problems beautifully.
               <br />
               <br />
               The beauty of code is multifaceted. It lies not just in its
               functionality, but in how it communicates with others. Code can be
               poetry—concise, elegant, and meaningful. Writing beautiful code
-              isn’t just a technical skill, it's a form of self-expression. The
-              ability to write code that is clean, concise, and understandable
-              by others mirrors the principles we see in art, design, and even
-              literature.
+              isn&apos;t just a technical skill, it&apos;s a form of
+              self-expression. The ability to write code that is clean, concise,
+              and understandable by others mirrors the principles we see in art,
+              design, and even literature.
               <br />
               <br />
               Beauty, of course, is subjective. In the same way a brushstroke or
@@ -400,18 +401,18 @@ export default function Home() {
               creativity, and innovation.
               <br />
               <br />
-              Whether you’re building a website, crafting a game, or creating
-              art from lines of code, remember that your code reflects your
-              creative choices. By embracing the artistry within coding, we can
-              continue to push the boundaries of what we create, building a
+              Whether you&apos;re building a website, crafting a game, or
+              creating art from lines of code, remember that your code reflects
+              your creative choices. By embracing the artistry within coding, we
+              can continue to push the boundaries of what we create, building a
               future where technology and creativity work hand-in-hand.
               <br />
               <br />
-              As you’ve explored on this site, from generative art to digital
-              storytelling, we now live in a world where coding is a vital
-              medium of creative expression. The journey doesn’t end here—take
-              what you’ve learned and continue exploring how code can transform
-              your creative vision into reality.
+              As you&apos;ve explored on this site, from generative art to
+              digital storytelling, we now live in a world where coding is a
+              vital medium of creative expression. The journey doesn&apos;t end
+              here—take what you&apos;ve learned and continue exploring how code
+              can transform your creative vision into reality.
             </p>
 
             {/* Optional: Add a cool UI element to signify the end */}
