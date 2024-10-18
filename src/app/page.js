@@ -76,10 +76,11 @@ export default function Home() {
       <section className="fade-section landing-section">
         <p className="text-2xl">
           Many people still see coding as purely technical—just logic and rules,
-          with no room for creativity. Lines of code aren't often thought of in
-          the same way as brushstrokes on a canvas or verses in a poem—open to
-          interpretation, emotion, or artistic expression. But that assumption
-          misses a key point: coding can be a powerful form of creativity.
+          with no room for creativity. Lines of code aren&apos;t often thought
+          of in the same way as brushstrokes on a canvas or verses in a
+          poem—open to interpretation, emotion, or artistic expression. But that
+          assumption misses a key point: coding can be a powerful form of
+          creativity.
           <br />
           <br />
           In fact, as Paul Ford reflects in <em>What is Code?</em>, &quot;code
@@ -105,10 +106,10 @@ export default function Home() {
         <h2>Generative Art</h2>
         <section className="flex section">
           <p className="text-2xl const-width">
-            Art doesn't always need a paintbrush or a canvas. With generative
-            design, the artist&apos;s medium is code, and the creative process
-            unfolds dynamically, often producing results the artist didn&apos;t
-            initially predict.
+            Art doesn&apos;t always need a paintbrush or a canvas. With
+            generative design, the artist&apos;s medium is code, and the
+            creative process unfolds dynamically, often producing results the
+            artist didn&apos;t initially predict.
             <br />
             <br />
             In his <em>The Theory of Affordances</em>, J.J. Gibson explores how
@@ -391,7 +392,7 @@ export default function Home() {
               how it interacts with human thought. Code is a medium that
               reflects our thought processes and creativity, a form of
               self-expression as valid as any brushstroke on canvas. And just as
-              J.J. Gibson's <em>Theory of Affordances</em> shows how our
+              J.J. Gibson&apos;s <em>Theory of Affordances</em> shows how our
               environment shapes perception, code&apos;s inherent affordances
               shape the creative process, opening new possibilities for artistic
               expression.
