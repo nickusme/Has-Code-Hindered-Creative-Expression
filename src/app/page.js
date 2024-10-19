@@ -263,8 +263,9 @@ export default function Home() {
             solve the same problem in code, not every solution is considered
             &quot;beautiful.&quot; Beautiful code is elegant, easy to read, and
             simple to understand—even for others who didn&apos;t write it. On
-            the other hand, ugly, or what we call &quot;spaghetti&quot; code, is
-            tangled, complicated, and hard to follow.
+            the other hand, ugly or poorly written code is tangled, complicated,
+            and hard to follow. Really tangled code with lots of convoluted
+            jumps is often called &quot;spaghetti&quot; code
             <br />
             <br />
           </p>
@@ -288,8 +289,8 @@ export default function Home() {
             </div>
 
             {/* Ugly Code Example 1 */}
-            <div className="code-block ugly-code">
-              <h3 className="text-2xl text-red-600">Ugly Code</h3>
+            <div className="code-block neutral-code">
+              <h3 className="text-2xl text-blue-600">Neutral Code</h3>
               <pre className="code-snippet">
                 {`function sum(arr) {
   let total = 0;
@@ -301,9 +302,9 @@ export default function Home() {
               </pre>
               <p className="text-xl explanation">
                 While this code works, it&apos;s longer and more repetitive. It
-                uses a manual loop, which makes it harder to read and maintain
-                compared to the elegant one-liner above. It gets the job done,
-                but it could be cleaner.
+                uses a manual loop, which may be easier to read for some and
+                compared compared to the previous one-liner. It gets the job
+                done, but there are ways to condense.
               </p>
             </div>
 
@@ -328,7 +329,7 @@ export default function Home() {
 
             {/* Ugly Code Example 2 */}
             <div className="code-block ugly-code">
-              <h3 className="text-2xl text-red-600">Ugly Code</h3>
+              <h3 className="text-2xl text-red-600">Poor Code</h3>
               <pre className="code-snippet">
                 {`function isPrime(num) {
   if (num <= 1) {
