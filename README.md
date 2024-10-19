@@ -38,9 +38,6 @@ By the end of your exploration, you’ll see how the affordances of code open ne
 5. **Beauty in Code**  
    This section compares "beautiful" and "ugly" code, explaining how writing clean, efficient code enhances not only functionality but readability and future maintenance. It highlights how elegance in coding parallels other forms of creative expression.
 
-6. **Responsive Design**  
-   The website is optimized for **desktop**, **tablet**, and **mobile** devices. Whether you’re on a full-sized laptop or an iPhone, the layout will adapt to ensure a smooth and visually pleasing experience.
-
 ## Technologies Used
 
 - **Next.js**: The website is built using Next.js for fast server-side rendering and efficient front-end functionality.
