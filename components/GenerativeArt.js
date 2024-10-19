@@ -2,9 +2,9 @@ import { useEffect, useRef, useState } from "react";
 
 export default function GenerativeArt() {
   const canvasRef = useRef(null);
-  const [color, setColor] = useState("#3498db"); // Default color
-  const [density, setDensity] = useState(100); // Default density
-  const [radius, setRadius] = useState(25); // Default radius for spheres
+  const [color, setColor] = useState("#3498db");
+  const [density, setDensity] = useState(100);
+  const [radius, setRadius] = useState(25);
 
   const drawPattern = (ctx, color, density, radius) => {
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height); // Clear the canvas

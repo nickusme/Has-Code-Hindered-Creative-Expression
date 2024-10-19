@@ -1,12 +1,12 @@
 import { useState } from "react";
 
 export default function CodePlayground() {
-  const [bgColor, setBgColor] = useState("#3498db"); // Default color
-  const [width, setWidth] = useState(200); // Default width
-  const [height, setHeight] = useState(200); // Default height
-  const [borderRadius, setBorderRadius] = useState(0); // Default border radius
-  const [rotation, setRotation] = useState(0); // Default rotation
-  const [boxText, setBoxText] = useState(""); // Default text inside the box
+  const [bgColor, setBgColor] = useState("#3498db");
+  const [width, setWidth] = useState(200);
+  const [height, setHeight] = useState(200);
+  const [borderRadius, setBorderRadius] = useState(0);
+  const [rotation, setRotation] = useState(0);
+  const [boxText, setBoxText] = useState("");
 
   return (
     <div className="code-playground">

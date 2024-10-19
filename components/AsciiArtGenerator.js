@@ -10,12 +10,10 @@ export default function AsciiArtGenerator() {
     setInputText(e.target.value);
   };
 
-  // Parse the font into figlet
   figlet.parseFont("Standard", standard);
 
   const generateAscii = async () => {
     try {
-      // Use the font name 'Standard', not the object
       figlet.text(inputText, { font: "Standard" }, (err, result) => {
         if (err) {
           console.error("Error generating ASCII art:", err);
@@ -39,7 +37,6 @@ export default function AsciiArtGenerator() {
       />
       <button onClick={generateAscii}>Generate ASCII Art</button>
 
-      {/* Only render the frame if there is ASCII art */}
       {asciiArt && (
         <div className="ascii-frame">
           <pre>{asciiArt}</pre>

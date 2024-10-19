@@ -22,7 +22,7 @@ export default function Home() {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.classList.add("fade-in"); // Apply fade-in class when in view
+            entry.target.classList.add("fade-in");
           }
         });
       },
@@ -114,12 +114,13 @@ export default function Home() {
             <br />
             In his <em>The Theory of Affordances</em>, J.J. Gibson explores how
             perception is shaped by the affordances of our environment.
-            Similarly, in generative art, the affordances of the code—its
-            randomness, its algorithms—create a space for unexpected and
-            spontaneous results. Here, the artist is not the sole creator but a
-            collaborator with the machine. The code&apos;s affordances shape the
-            possibilities of the output, much like how Gibson suggests the
-            environment shapes perception.
+            Similarly, in generative art, the affordances of the code-its{" "}
+            <em>
+              <span style={{ fontSize: "0.5em" }}>pseudo</span>randomness
+            </em>
+            , or the complex algorithms it can process—create a space where the
+            artist is not the sole creator but a collaborator with the machine.
+            The code&apos;s affordances shape the possibilities of the output,
             <br />
             <br />
             Try it for yourself. Use the controls below to create your own
@@ -128,6 +129,8 @@ export default function Home() {
             artistic outputs.
           </p>
           <div>
+            <br />
+            <br />
             <div className="extraSpace"></div>
             <GenerativeArt />
           </div>
@@ -387,6 +390,14 @@ export default function Home() {
               clean, elegant code that solves problems beautifully.
               <br />
               <br />
+              Caplan&apos;s exploration of JPEGs reminds us that even in their
+              compressed or minimal forms, digital objects hold artistic
+              significance. ASCII art and generative designs are just the some
+              of the few early ways we pushed the boundaries of creativity using
+              code. The journey doesn&apos;t end here—continue exploring how
+              code can transform your creative vision into reality.
+              <br />
+              <br />
               The beauty of code, as Paul Ford suggests in{" "}
               <em>What is Code?</em>, lies not just in its functionality but in
               how it interacts with human thought. Code is a medium that
@@ -395,18 +406,13 @@ export default function Home() {
               J.J. Gibson&apos;s <em>Theory of Affordances</em> shows how our
               environment shapes perception, code&apos;s inherent affordances
               shape the creative process, opening new possibilities for artistic
-              expression.
-              <br />
-              <br />
-              Caplan&apos;s exploration of JPEGs reminds us that even in their
-              compressed or minimal forms, digital objects hold artistic
-              significance. ASCII art and generative designs are just the
-              beginning of how we can push the boundaries of creativity using
-              code. The journey doesn&apos;t end here—continue exploring how
-              code can transform your creative vision into reality.
-              <br />
-              <br />
-              <br />
+              expression. Some believe that because the result of code can be
+              predetermined before it&apos;s executed, that it cannot be
+              beautiful, subjective, or artsy. However, the beauty of code lies
+              in the process of creation, the thought behind it, and the way it
+              interacts with the viewer. If the code is lost, and all we have
+              left is its output, we are left to ponder what brought it into
+              existence, or why.
             </p>
             <div className="extraSpace"></div>
             <div className="end-symbol">
