@@ -282,8 +282,8 @@ export default function Home() {
               <p className="text-xl explanation">
                 This example is concise, easy to read, and leverages built-in
                 functions. It&apos;s efficient and clear about what it does: it
-                sums up all numbers in an array. Anyone looking at it knows what
-                it does at a glance.
+                sums up all numbers in an array. Anyone looking at it (with some
+                JavaScript coding experience) knows what it does at a glance.
               </p>
             </div>
 
